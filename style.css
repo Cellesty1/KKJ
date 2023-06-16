@@ -1,0 +1,59 @@
+/* Estilos para o cabeçalho */
+header {
+	background-color: #F5DEB3;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav li a:hover {
+	color: #F5DEB3;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+	padding: 15px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 33.33%;
+	padding: 110px;
+	box-sizing: border-box;
+}
+
+/* Estilos para o rodapé */
+footer {
+	background-color: #F5DEB3;
+	padding: 10px;
+	text-align: center;
+}
